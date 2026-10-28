@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name" translatable="false">Totoro</string>
+
+    <!-- navigation -->
+
+    <!-- top bar titles -->
+    <string name="rroil_top_bar_home_title">Home</string>
+    <string name="rroil_top_bar_workout_title">Workout</string>
+    <string name="rroil_top_bar_history_title">History</string>
+    <string name="rroil_top_bar_statistics_title">Statistics</string>
+    <string name="rroil_top_bar_profile_title">Profile</string>
+    <string name="rroil_top_bar_tagline">Track your progress. Reach your goals.</string>
+    <string name="back_icon_description">Back</string>
+
+    <!-- bottom bar navigation item titles -->
+    <string name="rroil_bottom_bar_nav_item_home_title">Home</string>
+    <string name="rroil_bottom_bar_nav_item_history_title">History</string>
+    <string name="rroil_bottom_bar_nav_item_statistics_title">Statistics</string>
+    <string name="rroil_bottom_bar_nav_item_profile_title">Profile</string>
+
+    <!-- shared -->
+
+    <string name="workout_image_description">Workout image</string>
+
+    <!-- enums (labels the filters and statistics rely on) -->
+
+    <!-- workout categories: workout_type_<category_name>_title -->
+
+    <!-- Difficulty enum -->
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_intermediate">Intermediate</string>
+    <string name="difficulty_advanced">Advanced</string>
+
+    <!-- Intensity enum -->
+    <string name="intensity_low">Low</string>
+    <string name="intensity_moderate">Moderate</string>
+    <string name="intensity_high">High</string>
+    <string name="intensity_maximum">Maximum</string>
+
+    <!-- splash screen -->
+
+    <string name="rroil_app_logo_description">App logo</string>
+    <string name="splash_screen_tagline">Track your progress. Reach your goals.</string>
+
+    <!-- onboarding screen -->
+
+    <!-- pages -->
+    <string name="rroil_page_expertise_title">Train Smarter</string>
+    <string name="rroil_page_expertise_description">Track your workouts, monitor your progress, and get personalized insights to help you reach your fitness goals.</string>
+
+    <string name="rroil_page_reliability_title">Track Every Move</string>
+    <string name="rroil_page_reliability_description">Accurate activity tracking, real-time stats, and consistent performance — everything you need to stay on top of your training.</string>
+
+    <string name="rroil_page_guarantee_title">Built for Your Goals</string>
+    <string name="rroil_page_guarantee_description">From daily activity to detailed workouts, get reliable data and actionable insights to keep improving every step of the way.</string>
+
+    <!-- controls -->
+    <string name="next_button_title">Next</string>
+    <string name="start_button_title">Start</string>
+    <string name="skip_button_title">Skip</string>
+    <!-- %1$s – button label (Next/Start), %2$d and %3$d – current page number and total number of pages. -->
+    <string name="onboarding_button_progress">%1$s · %2$d/%3$d</string>
+
+    <!-- home screen -->
+
+    <!-- greeting -->
+    <string name="home_greeting_title">Ready to Train?</string>
+    <string name="home_greeting_text">Pick a workout and keep your week on track.</string>
+
+    <!-- weekly goal -->
+    <string name="home_weekly_goal_label">Weekly Goal</string>
+    <string name="home_weekly_goal_unit">workouts</string>
+    <!-- %1$d – workouts completed this week, %2$d – weekly goal. -->
+    <string name="home_weekly_goal_progress_format">%1$d of %2$d</string>
+
+    <!-- tips -->
+    <string name="home_tip_eyebrow_label">Tip</string>
+
+    <!-- filter -->
+    <string name="rroil_workout_filter_all">All</string>
+    <string name="workout_filter_mode_type">Filtering by type</string>
+    <string name="workout_filter_mode_difficulty">Filtering by difficulty</string>
+    <string name="workout_filter_empty">No workouts match this filter</string>
+
+    <!-- workout list and cards -->
+    <string name="workouts_state_empty">No workouts yet</string>
+    <!-- %1$s – workout type, %2$s – difficulty, %3$d – number of exercises. -->
+    <string name="workout_card_subtitle">%1$s · %2$s · %3$d exercises</string>
+    <!-- %1$d – number of exercises. -->
+    <string name="workout_card_exercise_count">%1$d exercises</string>
+
+    <!-- workout screen -->
+
+    <!-- header -->
+    <string name="workout_details_state_empty">Workout not found</string>
+    <!-- %1$s – workout type, %2$s – difficulty. -->
+    <string name="workout_header_subtitle">%1$s · %2$s</string>
+    <!-- %1$d – finished exercises, %2$d – total exercises. -->
+    <string name="workout_progress_format">%1$d of %2$d</string>
+
+    <!-- start / end buttons -->
+    <string name="start_workout_button_title">Start Workout</string>
+    <string name="end_workout_button_title">End Workout</string>
+
+    <!-- exercise cards -->
+    <!-- %1$d – sets, %2$d – repetitions. -->
+    <string name="exercise_sets_reps">%1$d × %2$d reps</string>
+    <!-- %1$d – duration in seconds. -->
+    <string name="exercise_duration_seconds">%1$ds</string>
+    <!-- %1$d – sets, chip form. -->
+    <string name="exercise_sets_chip">%1$d sets</string>
+    <!-- %1$d – repetitions, chip form. -->
+    <string name="exercise_reps_chip">%1$d reps</string>
+
+    <!-- active exercise -->
+    <!-- %1$d – current set, %2$d – total sets. -->
+    <string name="exercise_set_progress">Set %1$d of %2$d</string>
+    <string name="exercise_phase_work">Work</string>
+    <string name="exercise_phase_rest">Rest</string>
+    <!-- %1$s – set progress, %2$s – phase name. -->
+    <string name="exercise_active_subtitle">%1$s · %2$s</string>
+    <string name="exercise_tap_to_finish_set">Tap to finish set</string>
+
+    <!-- dialogs: end the workout -->
+    <string name="end_workout_dialog_title">End this workout?</string>
+    <string name="end_workout_dialog_message">Progress on the remaining exercises won\'t be saved. Are you sure you want to end this workout?</string>
+    <string name="end_workout_dialog_confirm">End Workout</string>
+
+    <!-- dialogs: finish a set early -->
+    <string name="exercise_finish_set_dialog_title">Finish this set early?</string>
+    <string name="exercise_finish_set_dialog_message">The timer hasn\'t finished yet. Mark this set as done and start your rest?</string>
+    <string name="exercise_finish_set_dialog_confirm">Finish</string>
+
+    <!-- dialogs: skip the rest -->
+    <string name="exercise_skip_rest_dialog_title">Skip the rest?</string>
+    <string name="exercise_skip_rest_dialog_message">End this rest early and start the next set?</string>
+    <string name="exercise_skip_rest_dialog_confirm">Skip</string>
+
+    <string name="exercise_dialog_cancel">Cancel</string>
+
+    <!-- dialog: workout completed -->
+    <string name="workout_finished_title">Workout Complete!</string>
+    <string name="workout_finished_description">Great job — you finished every exercise.</string>
+    <string name="workout_completed_stat_exercises">Exercises</string>
+    <string name="workout_completed_stat_sets">Sets</string>
+    <string name="workout_completed_stat_level">Level</string>
+    <string name="workout_completed_hint">Your result is saved to History.</string>
+    <string name="workout_completed_dialog_confirm">Done</string>
+
+    <!-- history screen -->
+
+    <string name="history_calendar_previous_month">Previous month</string>
+    <string name="history_calendar_next_month">Next month</string>
+    <string name="history_day_empty">No workouts on this day</string>
+    <!-- %1$d – completed exercises, %2$d – total exercises. -->
+    <string name="history_session_progress">%1$d/%2$d done</string>
+    <string name="history_session_completed_label">Completed</string>
+
+    <!-- statistics screen -->
+
+    <string name="statistics_state_empty">No workout data yet</string>
+    <string name="statistics_chart_title_type">Workouts by Type</string>
+    <string name="statistics_chart_title_difficulty">Workouts by Difficulty</string>
+    <string name="statistics_summary_total">Workouts</string>
+    <string name="statistics_summary_completion">Completed</string>
+    <string name="statistics_summary_streak">Day Streak</string>
+    <!-- %1$d – completion rate as a whole percentage. -->
+    <string name="statistics_summary_percent_format">%1$d%%</string>
+    <!-- %1$d – consecutive days with at least one session. -->
+    <string name="statistics_summary_days_format">%1$d</string>
+
+    <!-- profile screen -->
+
+    <!-- goals -->
+    <string name="profile_screen_goals_section_title">Goals</string>
+    <string name="profile_screen_weekly_goal_label">Weekly Workout Goal</string>
+    <string name="profile_screen_height_label">Height (cm)</string>
+    <string name="profile_screen_weight_label">Weight (kg)</string>
+
+    <!-- data -->
+    <string name="profile_screen_data_section_title">Data</string>
+    <string name="profile_screen_reset_data_button">Reset Statistics &amp; History</string>
+    <string name="profile_screen_reset_data_dialog_title">Reset all data?</string>
+    <string name="profile_screen_reset_data_dialog_message">This will permanently delete all workout history and statistics. This action cannot be undone.</string>
+    <string name="profile_screen_reset_data_dialog_confirm">Reset</string>
+
+    <!-- about; the rroil_* values below are filled from the project configuration -->
+    <string name="profile_screen_about_section_title">About</string>
+    <string name="profile_screen_app_label">Application</string>
+    <string name="profile_screen_version_label">Version</string>
+    <string name="rroil_app_version" translatable="false">1.0.0</string>
+
+    <string name="profile_screen_developer_label">Developer</string>
+    <string name="rroil_company_name" translatable="false">RUBERY EXPRESS LTD</string>
+
+    <string name="profile_screen_contact_label">Contact</string>
+    <string name="rroil_customer_support_link" translatable="false">https://rubery-express.click</string>
+</resources>
