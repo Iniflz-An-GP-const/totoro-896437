@@ -9,7 +9,7 @@
     <string name="rroil_top_bar_history_title">History</string>
     <string name="rroil_top_bar_statistics_title">Statistics</string>
     <string name="rroil_top_bar_profile_title">Profile</string>
-    <string name="rroil_top_bar_tagline">Track your progress. Reach your goals.</string>
+    <string name="rroil_top_bar_tagline">Train with purpose. Track every rep.</string>
     <string name="back_icon_description">Back</string>
 
     <!-- bottom bar navigation item titles -->
@@ -25,6 +25,10 @@
     <!-- enums (labels the filters and statistics rely on) -->
 
     <!-- workout categories: workout_type_<category_name>_title -->
+    <string name="workout_type_strength_title">Strength</string>
+    <string name="workout_type_core_title">Core</string>
+    <string name="workout_type_upper_body_title">Upper Body</string>
+    <string name="workout_type_hiit_title">HIIT</string>
 
     <!-- Difficulty enum -->
     <string name="difficulty_beginner">Beginner</string>
@@ -40,7 +44,7 @@
     <!-- splash screen -->
 
     <string name="rroil_app_logo_description">App logo</string>
-    <string name="splash_screen_tagline">Track your progress. Reach your goals.</string>
+    <string name="splash_screen_tagline">Train with purpose. Track every rep.</string>
 
     <!-- onboarding screen -->
 
@@ -56,7 +60,7 @@
 
     <!-- controls -->
     <string name="next_button_title">Next</string>
-    <string name="start_button_title">Start</string>
+    <string name="start_button_title">Start Training</string>
     <string name="skip_button_title">Skip</string>
     <!-- %1$s – button label (Next/Start), %2$d and %3$d – current page number and total number of pages. -->
     <string name="onboarding_button_progress">%1$s · %2$d/%3$d</string>
